@@ -45,6 +45,7 @@ footer span{
     justify-content: center;
 }
 
+
 /*=====================  FOOTER ====================== */
 
 #footer_text{
@@ -63,6 +64,7 @@ font-size: 2rem;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 
 /*===================== Header ===================== */
 header{
@@ -130,6 +132,7 @@ nav a{
 nav a:hover{
     color: orange;
 }
+
 
 /*=====================  LINK ===================== */
 
@@ -313,7 +316,6 @@ button.form_sumbit:hover {
         padding: 1rem;
         display: flex;
         flex-direction: row;
-    
     }
 
     nav ul {
@@ -370,6 +372,7 @@ button.form_sumbit:hover {
         font-size: 2rem;
     }
 }
+
 
 
 
