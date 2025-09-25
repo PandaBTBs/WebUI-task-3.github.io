@@ -8,7 +8,6 @@
 
 body{
     background-color: rgb(44, 45, 46); 
-    font-family: sans-serif;
     /* display: flex;
     flex-direction: column; */
 }
@@ -371,5 +370,6 @@ button.form_sumbit:hover {
         font-size: 2rem;
     }
 }
+
 
 
