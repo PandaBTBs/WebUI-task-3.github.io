@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* =================================================== GLOBAL ===================================================*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(44, 45, 46); 
+    font-family: sans-serif;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    text-align: center;
+
+    width: 60rem;
+    margin-top: 6rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    margin-top: auto;
+
+    background: rgb(27, 28, 29);
+    color: white;
+
+    min-height: 10vh;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer span{
+    display: flex;
+    justify-content: center;
+}
+
+/*=====================  FOOTER ====================== */
+
+#footer_text{
+font-family: "Montserrat", sans-serif;
+color: aliceblue;
+font-size: 2rem;
+}
+
+
+/*========================== Mobile по умочанию ========================== */
+
+#link_div_main, #table_div_main, #form_div_main {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgb(68, 74, 76);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*===================== Header ===================== */
+header{
+    display: flex;
+    background-color: #869c23;
+}
+
+.header_text_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
+    margin: 1rem;
+}
+
+#header_logo{
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+} 
+
+.header_text a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 1.5rem;
+    font-size: 60px;
+}
+
+
+/*===================== NAV ===================== */
+nav {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #869c23;
+
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+nav a{
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 35px;
+
+    background-color: #1f201e;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+/*=====================  LINK ===================== */
+
+#link{
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#link_div_main{
+    list-style-position: inside;
+}
+
+#link_div_main li{
+    margin-top: 5px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
+}
+
+#link_div_main a{
+    margin-top: 5px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(231, 231, 231);
+}
+
+#link_div_main a:hover{
+    color: orange;
+}
+
+.explanation{
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
+
+.contextual_link{
+    color: aqua;
+}
+
+.href_img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 15px;
+}
+
+
+/*=====================  TABLE ===================== */
+
+#table_div_main{
+    text-align: center;
+    order: -1;
+}
+
+#table{
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 10px;
+
+    margin: auto;
+
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+#table_div_main tr:nth-child(odd){
+    background-color: chocolate;
+} 
+
+#table_div_main tr:nth-child(even){
+    background-color: brown;
+}
+
+/*=====================  FORM ===================== */
+
+#form{
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#form_div_main label, span{
+
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"], 
+input[type="tel"], 
+input[type="email"], 
+input[type="date"],
+select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.form_select_languages{
+    height: 80px;
+}
+
+
+button.form_sumbit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.form_sumbit:hover {
+    background-color: #3e8e41;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================================   Desktop && iPad: Devices ===================================================   */
+@media screen and (min-device-width: 768px) {
+
+    /*===================== Header ===================== */
+    .header_text_logo {
+        font-family: "Montserrat", sans-serif;
+        color: aliceblue;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    /*===================== NAV  ===================== */
+    nav {
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+
+        text-align: center;
+        list-style: none;
+        gap: 1rem;
+    }
+
+    nav a:hover{
+        background-color: black;
+        color: orange;
+    }
+
+    #link_div_main, 
+    #table_div_main, 
+    #form_div_main {
+        padding: 20px;
+    }
+
+    /*=====================  LINK ===================== */
+
+    #link_div_main{
+        order: -1;
+    }
+
+    #link_div_main li{
+        font-size: 1.5rem;
+    }
+
+    #link_div_main a{
+        font-size: 1.5rem;
+    }
+
+    /*=====================  TABLE ===================== */
+
+
+    #table{
+        font-size: 2rem;
+    }
+
+    #table_div_main table{
+        font-size: 20px;
+    }
+
+    /*=====================  FORM ===================== */
+
+
+    /*=====================  FOOTER ====================== */
+
+    #footer_text{
+        font-size: 2rem;
+    }
+}
+
