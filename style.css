@@ -22,7 +22,7 @@ main{
     text-align: center;
 
     width: 60rem;
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
 }
 
 footer{
@@ -371,4 +371,5 @@ button.form_sumbit:hover {
         font-size: 2rem;
     }
 }
+
 
