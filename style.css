@@ -29,7 +29,6 @@ footer{
     flex-direction: column;
     justify-content: center;
 
-
     margin-top: auto;
 
     background: rgb(27, 28, 29);
@@ -372,6 +371,7 @@ button.form_sumbit:hover {
         font-size: 2rem;
     }
 }
+
 
 
 
